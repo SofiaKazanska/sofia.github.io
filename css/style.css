@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Qahiri&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+h1>span{
+    color: aquamarine;
+}
+.main{
+    width: 1800px;
+    height: 800px;
+    margin: 15px auto;
+}
+.main-left{
+    width: 450px; 
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.foto{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+.main-right{
+    width: 1250px;
+}
+.main-right> td {
+    width: 1250px;
+
+}
+.main-left, .main-right{
+    border-radius: 5px;
+    margin: 0 25px;
+    padding: 0 25px;
+    -webkit-box-shadow: 5px 5px 20px 5px #000000; 
+box-shadow: 5px 5px 20px 5px #000000;
+}
+td{
+    border-bottom: 2px solid black;
+    width: 1250px;
+}
+.btn{
+    width: 125px;
+    height: 50px;
+    background-color: cadetblue;
+    color: white;
+    margin: 0 auto;
+    display: block;
+
+}
+.btn:hover{
+    -webkit-box-shadow: 5px 5px 20px 5px #000000; 
+    box-shadow: 5px 5px 20px 5px #000000;
+}
+.btn_1{
+    text-align: center; 
+}
+a{
+    text-decoration: none;
+}
